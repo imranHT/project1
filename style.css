@@ -1,6 +1,6 @@
 body{
     min-height: 100vh;
-    background-image: url(/assets/bg.jpeg);
+    background-image: url(assets/bg.jpeg);
     color: black;
     
     
@@ -62,7 +62,7 @@ li a{
   padding: 80px;
   background: rgb(102, 190, 61);
   border-radius: 50px;
-  background-image: url(/assets/bg.jpeg);
+  background-image: url(assets/bg.jpeg);
 }
 
 input[type="send"] {
@@ -89,7 +89,7 @@ button:hover {
   padding: 80px;
   background: rgb(102, 190, 61);
   border-radius: 50px;
-  background-image: url(/assets/bg.jpeg);
+  background-image: url(assets/bg.jpeg);
 
 }
 
@@ -127,7 +127,7 @@ button:hover {
   padding: 80px;
   background: rgb(102, 190, 61);
   border-radius: 50px;
-  background-image: url(/assets/bg.jpeg);
+  background-image: url(assets/bg.jpeg);
   box-shadow: 0 1rem 1 rem var(black);
 
 
