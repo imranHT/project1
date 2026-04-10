@@ -1,0 +1,136 @@
+body{
+    min-height: 100vh;
+    background-image: url(/assets/bg.jpeg);
+    color: black;
+    
+    
+}
+
+.navbar{
+    background: crimson; 
+      font-family: 'Courier New', Courier, monospace; 
+      padding-right: 15px;
+      padding-left: 15px;
+}
+
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo a{
+    font-size: 35px; font-weight: 000; color: rgb(0, 2, 4);
+}
+li{
+    list-style: none; display: inline-block;
+}
+li a{
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px;
+}
+
+.container {
+    display: grid;
+    columns: 1 ;
+    row-gap: inherit;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+       text-align: center;
+}
+
+.bd font {
+    font: bold;
+    font-size:50px;
+}
+
+.container1{
+    display: flex;
+
+}
+
+.blue {
+    background-color: aqua;
+}
+
+.form1 {
+  width: 1000px;
+  margin: 200px;
+  margin: left 50px; 
+  padding: 80px;
+  background: rgb(102, 190, 61);
+  border-radius: 50px;
+  background-image: url(/assets/bg.jpeg);
+}
+
+input[type="send"] {
+
+    background-color: green;
+    color: white;
+    border: none;
+}
+
+button {
+    background-color: green;
+    color: aqua;
+    border-radius: 0.5rem;
+}
+button:hover {
+    background-color: blueviolet;
+}
+
+.imo {
+   width: 750px;
+  margin: 200px;
+  margin: left 50px; 
+  left: 20px;
+  padding: 80px;
+  background: rgb(102, 190, 61);
+  border-radius: 50px;
+  background-image: url(/assets/bg.jpeg);
+
+}
+
+.slider {
+   width: 100%;
+   height: 400px;
+   overflow: hidden;
+   margin: auto;
+   border-radius: 10px;
+}
+.sliders {
+    display: flex;
+    width: 300%;
+    animation: slide 10s infinite;
+}
+
+.sliders img {
+    width: 100%;
+    height: 400px;
+}
+
+@keyframes slide {
+      0%   {margin-left: 0;}
+    33%  {margin-left: -100%;}
+    66%  {margin-left: -200%;}
+    100% {margin-left: 0;}
+}
+
+.last{
+
+       width: 750px;
+  margin: 200px;
+  margin: left 50px; 
+  left: 20px;
+  padding: 80px;
+  background: rgb(102, 190, 61);
+  border-radius: 50px;
+  background-image: url(/assets/bg.jpeg);
+  box-shadow: 0 1rem 1 rem var(black);
+
+
+}  
+            
+            
